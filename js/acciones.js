@@ -7,7 +7,7 @@ $(document).ready(function(e){
 	navigator .notification. alert("Deslizo a la Izquierda",function(){"aplicacion ","aceptar"});
 	});
 
-$('#derecha').on("swiperight",function(){
+$('#Derecha').on("swiperight",function(){
 	navigator .notification. confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{
@@ -22,8 +22,6 @@ $('#derecha').on("swiperight",function(){
 	},"aplicacion ","beep,vibrar,cancelar");
 
 	});	
-
-	
 	},false);
 	
 });//document
